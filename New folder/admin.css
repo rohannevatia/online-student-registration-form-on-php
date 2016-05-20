@@ -1,0 +1,21 @@
+.button:hover, button:focus
+{
+	-webkit-animation: pulsate 1.2s linear infinite;
+	animation: pulsate 1.2s linear infinite;
+	
+  
+}
+
+@-webkit-keyframes pulsate
+{
+	0%   { color: #9F0; text-shadow: 0 -1px 0 #CF0; }
+	50%  { color: #9F3; text-shadow: 0 -1px 0 #000, 0 0 5px #9f3, 0 0 8px #F90; }
+	100% { color: #9F0; text-shadow: 0 -1px 0 #CF0; }
+}
+		
+@keyframes pulsate
+{
+	0%   { color: #9F0; text-shadow: 0 -1px 0 #CF0; }
+	50%  { color: #9F3; text-shadow: 0 -1px 0 #000, 0 0 5px #9f3, 0 0 8px #F90; }
+	100% { color: #9F0; text-shadow: 0 -1px 0 #CF0; }
+}
